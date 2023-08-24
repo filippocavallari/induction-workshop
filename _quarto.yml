@@ -1,13 +1,13 @@
 project:
   type: website
+  output-dir: docs
 
 website:
-  title: "induction-workshop"
+  title: "Induction Workshop"
   navbar:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
 
 format:
   html:
