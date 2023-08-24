@@ -1,0 +1,5 @@
+---
+title: "R"
+---
+
+In this page you can find instruction to setup your environment to follow R sessions.

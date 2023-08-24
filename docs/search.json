@@ -4,6 +4,20 @@
     "href": "index.html",
     "title": "Welcome!",
     "section": "",
-    "text": "Step 1: Download the Data\nThe data we are going to use can be found at this link."
+    "text": "Step 1: Download the Data\nThe data we are going to use can be found at this link.\n\n\nStep 2: Pick your Language\n\nIf you are going to follow the R sessions, please go here.\nIf you are going to follow the Python sessions, please go here."
+  },
+  {
+    "objectID": "R.html",
+    "href": "R.html",
+    "title": "R",
+    "section": "",
+    "text": "In this page you can find instruction to setup your environment to follow R sessions."
+  },
+  {
+    "objectID": "Python.html",
+    "href": "Python.html",
+    "title": "Python",
+    "section": "",
+    "text": "In this page you can find instruction to setup your environment to follow Python sessions."
   }
 ]

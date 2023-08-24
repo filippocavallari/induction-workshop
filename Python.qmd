@@ -1,0 +1,5 @@
+---
+title: "Python"
+---
+
+In this page you can find instruction to setup your environment to follow Python sessions.

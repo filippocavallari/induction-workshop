@@ -11,3 +11,9 @@ In this website you can find instructions to code along during the induction ses
 
 The data we are going to use can be found at this
 <a href="https://raw.githubusercontent.com/filippocavallari/induction-workshop/main/data/datasauRus.csv">link</a>.
+
+# Step 2: Pick your Language
+
++ If you are going to follow the R sessions, please go [here]().
+
++ If you are going to follow the Python sessions, please go [here]().
