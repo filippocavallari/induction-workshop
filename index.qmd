@@ -14,6 +14,6 @@ The data we are going to use can be found at this
 
 # Step 2: Pick your Language
 
-+ If you are going to follow the R sessions, please go [here]().
++ If you are going to follow the R sessions, please go [here](https://filippocavallari.github.io/induction-workshop/R.html).
 
-+ If you are going to follow the Python sessions, please go [here]().
++ If you are going to follow the Python sessions, please go [here](https://filippocavallari.github.io/induction-workshop/Python.html).
