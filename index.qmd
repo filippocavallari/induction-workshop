@@ -9,4 +9,5 @@ In this website you can find instructions to code along during the induction ses
 
 # Step 1: Download the Data
 
-The data we are going to use can be found at this link
+The data we are going to use can be found at this
+<a href="https://raw.githubusercontent.com/filippocavallari/induction-workshop/main/data/datasauRus.csv">link</a>.
