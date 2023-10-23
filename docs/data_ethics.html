@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.1.163">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Induction Workshop - Data Ethics Case Studies</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Induction Workshop</span>
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html">Home</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./R.html">R</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./Python.html">Python</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="./data_ethics.html" aria-current="page">Data Ethics Case Studies</a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#criminal-justice-system" id="toc-criminal-justice-system" class="nav-link active" data-scroll-target="#criminal-justice-system">Criminal Justice System</a></li>
+  <li><a href="#educational-system" id="toc-educational-system" class="nav-link" data-scroll-target="#educational-system">Educational System</a></li>
+  <li><a href="#job-hiring-system" id="toc-job-hiring-system" class="nav-link" data-scroll-target="#job-hiring-system">Job Hiring System</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Data Ethics Case Studies</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+    
+  </div>
+  
+
+</header>
+
+<section id="criminal-justice-system" class="level2">
+<h2 class="anchored" data-anchor-id="criminal-justice-system">Criminal Justice System</h2>
+<p>The introduction of algorithms into the criminal justice system marks a significant milestone that alters how decisions are made in this complex area. These advanced algorithms are specially crafted to play a crucial role: predicting the chances of individuals returning to criminal behaviour. This, in turn, provides valuable insights that strongly impact key decisions like bail, sentencing, and parole. In the midst of this transformative change, we find the Correctional Offender Management Profiling for Alternative Sanctions (COMPAS) algorithm standing out as a notable example. It’s actively used in more than 100 regions across the United States, gaining both recognition and scrutiny.</p>
+<p>At the heart of the COMPAS algorithm lies its skill to utilise the capabilities of machine learning. This sophisticated algorithm blends various factors to generate a personal risk score for each individual being assessed within the criminal justice system. The factors that contribute to this risk score cover a wide range of characteristics, such as an individual’s criminal record, age, education history, job status, and a variety of details about their background. Altogether, these diverse pieces of information come together to produce a quantifiable risk score – an important outcome that notably influences key decisions related to bail eligibility, length of sentencing, and the consideration of parole.</p>
+<p>However, while we can understand the main aim and general workings of COMPAS, the specific details of how it calculates risk scores are kept private as proprietary information. The exact methods it uses to evaluate and combine these different factors to generate risk scores are not fully disclosed to the public.</p>
+<p>The integration of algorithms like COMPAS into the criminal justice system introduces a new way of making decisions, one that’s grounded in insights extracted from a wealth of historical data. The infusion of algorithms into the criminal justice landscape causes a significant shift in how decisions are made for areas like bail, sentencing, and parole. COMPAS, as a leading algorithm in this space, represents this transformation. While these algorithms hold promise in making decisions fairer and more consistent, they also bring about concerns. What ethical concerns have arisen from this situation, and how did they evolve? What potential solutions can address these concerns?</p>
+</section>
+<section id="educational-system" class="level2">
+<h2 class="anchored" data-anchor-id="educational-system">Educational System</h2>
+<p>In 2020, the educational landscape in the United Kingdom experienced a significant shift due to the unparalleled challenges posed by the COVID-19 pandemic. With the cancellation of A-level exams, the government sought innovative ways to fairly evaluate student performance. Consequently, an algorithmic approach was introduced to calculate A-level grades for students across England and Wales. This method aimed to take into account various important factors, including prior academic achievements, teacher predictions, and historical school performance.</p>
+<p>The algorithm employed a multifaceted strategy to determine grades, with a particular focus on assessing a student’s potential based on their academic journey. By combining factors like teacher predictions and academic history, the algorithm aimed to provide a comprehensive evaluation mechanism. Furthermore, the algorithm considered the historical performance of schools, recognising the diverse contexts in which education is provided. Notably, it was observed that schools with a larger percentage of disadvantaged students exhibited distinct historical performance patterns.</p>
+<p>The complex calculations and methodologies used in the system were not publicly disclosed, making it difficult to understand how individual grades were decided. Additionally, a significant point of contention centred around the absence of clear mechanisms to hold accountable those responsible for developing and implementing the algorithm.</p>
+<p>From the perspective of students and their parents, the algorithmic approach introduced a unique challenge. The lack of transparency in the algorithm’s decision-making process made it difficult to challenge assigned grades. Consequently, there was a need for an appeal mechanism to ensure that students’ academic futures were not unfairly affected.</p>
+<p>What ethical concerns have arisen from this situation, and how did they evolve? What potential solutions can address these concerns?</p>
+</section>
+<section id="job-hiring-system" class="level2">
+<h2 class="anchored" data-anchor-id="job-hiring-system">Job Hiring System</h2>
+<p>A cutting-edge algorithmic approach has been introduced to modernise the hiring process, leveraging the capabilities of machine learning models to evaluate job applications and predict potential candidates’ achievements within an organization. This intricate algorithm deeply examines a broad range of crucial data points, including elements like resumes, work history, educational background, and a diverse set of skills. Equipped with this extensive information, the algorithm assumes the complex task of organising and categorising applicants, effectively assessing their suitability for specific positions within the organisational structure.</p>
+<p>This algorithmic hiring approach represents a significant departure in the realm of recruitment. Above all, it brings unparalleled efficiency by adeptly managing a substantial influx of applications. This heightened efficiency results in notable reductions in the customary time and resources needed for the initial evaluation of candidates, streamlining the hiring process. Simultaneously, the algorithm introduces an element of objectivity that profoundly transforms the initial selection phase. By harnessing the capabilities of algorithms, the process actively reduces the potential impact of human biases, thus paving the way for more impartial and unbiased candidate evaluations. This aspect holds particular significance as it strives to establish an equitable platform for all candidates, surpassing inherent human biases that could unconsciously sway traditional decision-making practices. Furthermore, the scalability of the algorithmic approach stands out as a notable advantage. In the context of diverse global operations and a spectrum of job roles spanning various geographic regions, the algorithm seamlessly adapts to cater to the organisation’s multifaceted hiring requirements. This adaptability facilitates efficient candidate assessment, regardless of the role’s scale, specificity, or location.</p>
+<p>The deliberate inclusion of algorithmic hiring underscores a strategic fusion of technological expertise with human resource management, ushering in transformative enhancements. Nonetheless, it is crucial to acknowledge that while the algorithmic method presents an opportunity to enhance the recruitment process, it also raises ethical concerns. What are the ethical concerns that have emerged from this situation, and how have they evolved? What potential solutions can be devised to address these ethical concerns?</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>
