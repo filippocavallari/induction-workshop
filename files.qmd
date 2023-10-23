@@ -1,0 +1,11 @@
+---
+title: "Workshop Files"
+---
+
+Code from the **Intro to Python** sessions:
+[day 1](python/day_1-python.html) and
+[day 2](python/day_2-python.html).
+
+Code from the **R** sessions:
+[day 1](r/day_1.R) and
+[day 2](r/day_2.R).

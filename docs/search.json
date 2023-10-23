@@ -21,11 +21,25 @@
     "text": "Job Hiring System\nA cutting-edge algorithmic approach has been introduced to modernise the hiring process, leveraging the capabilities of machine learning models to evaluate job applications and predict potential candidates’ achievements within an organization. This intricate algorithm deeply examines a broad range of crucial data points, including elements like resumes, work history, educational background, and a diverse set of skills. Equipped with this extensive information, the algorithm assumes the complex task of organising and categorising applicants, effectively assessing their suitability for specific positions within the organisational structure.\nThis algorithmic hiring approach represents a significant departure in the realm of recruitment. Above all, it brings unparalleled efficiency by adeptly managing a substantial influx of applications. This heightened efficiency results in notable reductions in the customary time and resources needed for the initial evaluation of candidates, streamlining the hiring process. Simultaneously, the algorithm introduces an element of objectivity that profoundly transforms the initial selection phase. By harnessing the capabilities of algorithms, the process actively reduces the potential impact of human biases, thus paving the way for more impartial and unbiased candidate evaluations. This aspect holds particular significance as it strives to establish an equitable platform for all candidates, surpassing inherent human biases that could unconsciously sway traditional decision-making practices. Furthermore, the scalability of the algorithmic approach stands out as a notable advantage. In the context of diverse global operations and a spectrum of job roles spanning various geographic regions, the algorithm seamlessly adapts to cater to the organisation’s multifaceted hiring requirements. This adaptability facilitates efficient candidate assessment, regardless of the role’s scale, specificity, or location.\nThe deliberate inclusion of algorithmic hiring underscores a strategic fusion of technological expertise with human resource management, ushering in transformative enhancements. Nonetheless, it is crucial to acknowledge that while the algorithmic method presents an opportunity to enhance the recruitment process, it also raises ethical concerns. What are the ethical concerns that have emerged from this situation, and how have they evolved? What potential solutions can be devised to address these ethical concerns?"
   },
   {
+    "objectID": "files.html",
+    "href": "files.html",
+    "title": "Workshop Files",
+    "section": "",
+    "text": "Code from the R sessions: day 1 and day 2."
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Welcome!",
     "section": "",
     "text": "Step 1: Download the Data\nThe data we are going to use can be found at this link\n\n\nStep 2: Pick your Language\n\nIf you are going to follow the R sessions, please go here.\nIf you are going to follow the Python sessions, please go here."
+  },
+  {
+    "objectID": "other_slides.html",
+    "href": "other_slides.html",
+    "title": "Other Slides",
+    "section": "",
+    "text": "You can download the slides of the Wellbeing session from here."
   },
   {
     "objectID": "Python.html",

@@ -14,6 +14,10 @@ website:
         text: Python
       - href: data_ethics.qmd
         text: Data Ethics Case Studies
+      - href: files.qmd
+        text: Files
+      - href: other_slides.qmd
+        text: Other
 
 format:
   html:

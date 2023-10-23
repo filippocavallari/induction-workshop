@@ -1,0 +1,9 @@
+---
+title: "Other Slides"
+---
+
+You can download the slides of the **Art of the Possible** session from
+[here](aotp/Art of the Possible 2023.pdf).
+
+You can download the slides of the **Wellbeing** session from
+[here](wellbeing/wellbeing-session.pdf).
