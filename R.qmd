@@ -6,10 +6,30 @@ In this page you can find instruction to setup your environment to follow R sess
 
 # Step 3: Create an Account on Posit Cloud
 
-Create an account at [Posit Cloud](https://posit.cloud/).
+Create an account at [Posit Cloud](https://posit.cloud/)
 
-# Step 4: Load Your Data
+# Step 4: Create a new Project
 
-Once you are inside your project click on __Upload__.
+Once you logged into your account, create a **New Project** using the blue button on
+the top right: **New Project > New RStudio Project**
 
-![](images/R/posit-upload.png)
+![](images/R/01_new_project.png)
+
+# Step 5: Create a folder to store your data
+
+Create a new folder for your data. Name it `data` (all lower case!)
+
+![](images/R/02_new_folder.png)
+
+# Step 6: Load Your Data
+
+Once you are inside your `data` folder click on __Upload__ and browse your files
+to select the dataset `ames.csv`
+
+![](images/R/03_upload.png)
+
+# Final check
+
+You should now have the `ames.csv` file in the `data` folder. You are ready to start!
+
+![](images/R/99_completed.png)

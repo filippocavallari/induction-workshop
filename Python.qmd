@@ -1,5 +1,93 @@
 ---
-title: "Python"
+title: "Next Steps in Python"
 ---
 
-In this page you can find instruction to setup your environment to follow Python sessions.
+# Anaconda
+
+If you have Anaconda installed on your computer, use that for the sessions for the next two days. Follow the instructions in the first tab titled ‘Anaconda’.
+
+# Alternative 1: Kaggle
+
+If you don’t have Anaconda installed, the next preferable option is Kaggle. Follow the instructions in the second tab titled ‘Kaggle’.
+
+# Alternative 2: Jupyter online
+
+If you not able to access Anaconda or Kaggle, your final option is Jupyter online. Follow the instructions in the third tab titled ‘Jupyter online’.
+
+# Instructions
+
+::: {.panel-tabset}
+
+## Anaconda
+
+1. Open Anaconda Prompt
+
+![](images/Python/anaconda_01.png)
+
+2. Once the Anaconda Prompt is open, navigate to the desired folder using the cd command.
+
+![](images/Python/anaconda_02.png)
+
+3. Once you are in that specific folder type jupyter notebook and press the enter key.
+
+![](images/Python/anaconda_03.png)
+
+4. The Jupyter server will start. You should see some server logs printed. Do not close this window, minimise it.
+
+![](images/Python/anaconda_04.png)
+
+5. Shortly after, a browser window will open, showing the files and folders located in the folder where you started the Jupyter server (in my case, this folder is `D:/Induction Python`).
+
+![](images/Python/anaconda_05.png)
+
+6. At the top-right of this file view, click New and select Python 3 from the dropdown. This will open a new Jupyter Notebook and you’re ready to start!
+
+## Kaggle
+
+1. Go to [Kaggle.com](https://www.kaggle.com/) and create an account if you don’t already have one.
+
+2. Log into you Kaggle account.
+
+3. In the left menu, goto **Create > New Dataset**
+
+![](images/Python/kaggle_01.png)
+
+4. In your file explorer, click and drag the csv file into the highlighted area.
+
+![](images/Python/kaggle_02.png)
+
+5. Name the dataset `Ames_dataset` and click **Create**.
+
+![](images/Python/kaggle_03.png)
+
+6. When you receive the message saying “Success!”, click the **X** in the top-left of that pane.
+
+7. In the left menu, goto **Create > New Notebook**
+
+![](images/Python/kaggle_04.png)   
+
+8. In the right-hand **Data** panel of the Notebook goto **Add Data**
+
+9. In the filters below the search bar click **Your Datasets**
+
+![](images/Python/kaggle_05.png)
+
+10. You can now see your dataset `Ames_dataset`. Click the + to the right of the dataset name.
+
+11. Click the **X** in the top-right corner of the **Add Data** panel to close it.
+
+12. In the right-hand **Notebook** panel, click the little arrow next to the name of the dataset.
+
+13. You’ll now see the name of the csv file we uploaded. To the right of the file name there is a little “copy” icon. You will need this to copy the file path so that you can use the data in these sessions.
+
+![](images/Python/kaggle_06.png)
+
+## Jupyter Online
+
+1. Got to [jupyter.org/try](https://jupyter.org/try) and select JupyterLab
+
+2. Drag the csv file into the left file list
+
+![](images/Python/jupyter_01.png)
+
+:::

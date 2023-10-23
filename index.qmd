@@ -9,11 +9,10 @@ In this website you can find instructions to code along during the induction ses
 
 # Step 1: Download the Data
 
-The data we are going to use can be found at this
-<a href="https://raw.githubusercontent.com/filippocavallari/induction-workshop/main/data/datasauRus.csv">link</a>.
+The data we are going to use can be found at this [link](data/ames.csv)
 
 # Step 2: Pick your Language
 
-+ If you are going to follow the R sessions, please go [here](https://filippocavallari.github.io/induction-workshop/R.html).
++ If you are going to follow the R sessions, please go [here](R.qmd).
 
-+ If you are going to follow the Python sessions, please go [here](https://filippocavallari.github.io/induction-workshop/Python.html).
++ If you are going to follow the Python sessions, please go [here](Python.qmd).

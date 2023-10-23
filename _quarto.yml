@@ -9,7 +9,11 @@ website:
       - href: index.qmd
         text: Home
       - href: R.qmd
+        text: R
       - href: Python.qmd
+        text: Python
+      - href: data_ethics.qmd
+        text: Data Ethics Case Studies
 
 format:
   html:

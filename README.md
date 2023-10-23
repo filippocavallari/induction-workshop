@@ -1,1 +1,1 @@
-# induction-workshop
+Instructions to setup Python/R environment
